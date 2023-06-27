@@ -37,7 +37,7 @@ export function sumZeroWithPointers(arr: number[]) {
     if (sum > 0) {
       right--;
     } else {
-      left--;
+      left++;
     }
   }
 
