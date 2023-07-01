@@ -23,7 +23,3 @@ export function validAnagram(str1: string, str2: string) {
 
   return true;
 }
-
-console.log(validAnagram('aca', 'aac'));
-console.log(validAnagram('eepp', 'pepe'));
-console.log(validAnagram('acas', 'aac'));
