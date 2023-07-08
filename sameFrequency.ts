@@ -4,6 +4,8 @@ function sameFrequency(num1: number, num2: number) {
   if (num1.toString().length !== num2.toString.length) {
     return false;
   }
+
+  
 }
 
 sameFrequency(182, 281); // true

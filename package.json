@@ -2,5 +2,11 @@
   "name": "typescript",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^29.6.1",
+    "node-notifier": "^8.0.1 || ^9.0.0 || ^10.0.0"
+  }
 }
