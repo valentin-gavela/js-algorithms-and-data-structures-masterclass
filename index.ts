@@ -1,4 +1,5 @@
 import { countUniqueValues } from './countUniqueValues';
+import { sameFrequency } from './sameFrequency';
 import { sumZero, sumZeroWithPointers } from './sumZero';
 import { validAnagram } from './validAnagram';
 
@@ -22,3 +23,9 @@ console.log(countUniqueValues([1, 1, 1, 1, 1, 2])); // 2)
 console.log(countUniqueValues([1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13])); // 7)
 console.log(countUniqueValues([])); // 0)
 console.log(countUniqueValues([-2, -1, -1, 0, 1])); // 4)
+
+console.log('sameFrequency');
+console.log(sameFrequency(182, 281)); // true
+console.log(sameFrequency(34, 14)); // false
+console.log(sameFrequency(3589578, 5879385)); // true
+console.log(sameFrequency(22, 222)); //false
