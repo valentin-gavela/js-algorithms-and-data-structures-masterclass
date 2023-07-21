@@ -1,5 +1,6 @@
 import { countUniqueValues } from './countUniqueValues';
 import { isSubsequence } from './isSubsequence';
+import { maxSubarraySum } from './masSubarraySum';
 import { sameFrequency } from './sameFrequency';
 import { sumZero, sumZeroWithPointers } from './sumZero';
 import { validAnagram } from './validAnagram';
@@ -36,3 +37,10 @@ console.log(isSubsequence('hello', 'hello world')); // true
 console.log(isSubsequence('sing', 'sting')); // true
 console.log(isSubsequence('abc', 'abracadabra')); // true
 console.log(isSubsequence('abc', 'acb')); // false (order
+
+console.log('maxSubarraySum');
+console.log(maxSubarraySum([100, 200, 300, 400], 2)); // 700
+console.log(maxSubarraySum([1, 4, 2, 10, 23, 3, 1, 0, 20], 4)); // 39
+console.log(maxSubarraySum([-3, 4, 0, -2, 6, -1], 2)); // 5
+console.log(maxSubarraySum([3, -2, 7, -4, 1, -1, 4, -2, 1], 2)); // 5
+console.log(maxSubarraySum([2, 3], 3)); // null
